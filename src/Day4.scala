@@ -56,9 +56,9 @@ object Day4 extends Base(4) {
         passports(current ++ pairs, rest, isValidPassport)
     }
 
-  override def part1: Int =
+  override def part1: Int = // 222
     passports(Map.empty, inputLines, isValidPassport1).size
 
-  override def part2: Int =
+  override def part2: Int = // 140
     passports(Map.empty, inputLines, isValidPassport2).size
 }
