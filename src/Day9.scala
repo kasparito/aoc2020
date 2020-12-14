@@ -29,7 +29,7 @@ object Day9 extends Base(9) {
       .collectFirst { case nums :+ n if isNotSum(n, nums) => n }
       .head
 
-  override def part2: Long = { //
+  override def part2: Long = { // 4794981
     val n = part1
     numbers
       .indices
